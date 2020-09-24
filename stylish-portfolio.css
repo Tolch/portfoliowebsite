@@ -13,6 +13,24 @@ body {
   font-family: 'Source Sans Pro';
 }
 
+a {
+  color: #1D809F;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: #155d74;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
@@ -36,22 +54,11 @@ body {
   text-transform: uppercase;
 }
 
-a {
-  color: #1D809F;
-}
-
-a:hover, a:focus, a:active {
-  text-decoration: none;
-  color: #155d74;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
 }
 
 .text-faded {
@@ -472,9 +479,6 @@ footer.footer .social-link:hover {
 .text-secondary {
   color: #ecb807 !important;
 }
-
-
-/*Custom*/
 
 /*****slide show*****/
 .slider {
