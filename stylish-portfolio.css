@@ -156,6 +156,12 @@ h6 {
   margin-top: 5em;
 }
 
+/*video Wrapper*/
+.videoWrapper {
+  /* falls back to 16/9, but otherwise uses ratio from HTML */
+  padding-bottom: calc(var(--aspect-ratio, .5625) * 100%); 
+}
+
 /*Loader*/
 .loader-wrapper {
   width: 100%;
@@ -485,6 +491,11 @@ footer.footer .social-link:hover {
   color: #ecb807 !important;
 }
 
+/*****sprite*****/
+.image-adjustment {
+  transform: scale(2);
+}
+
 /*****texthoverchange*****/
 .whatisit {
   display: none;
@@ -677,14 +688,12 @@ footer.footer .social-link:hover {
   padding-bottom: 0rem;
 }
 
-
 .icon-zoom:hover {
   -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1);
   transition: transform .3s; /* Animation */
 }
-
 
 .secondary-large-image {
   position: relative;
@@ -702,6 +711,18 @@ footer.footer .social-link:hover {
   min-height: 20rem;
 /*  background-color: rgba(0,0,0,.3);*/
   padding-top: 2.5rem;
+  padding-bottom: 2.5rem
+}
+
+.thirdly-text-box {
+  min-height: 10rem;
+/*  background-color: rgba(0,0,0,.3);*/
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem
+}
+
+.forthly-text-box {
+/*  background-color: rgba(0,0,0,.3);*/
   padding-bottom: 2.5rem
 }
 
