@@ -492,6 +492,7 @@ footer.footer .social-link:hover {
 
 .textabv {
   border-bottom: 1px dotted black;
+  cursor: pointer;
 }
 
 .textabv:hover + .whatisit {
