@@ -491,11 +491,6 @@ footer.footer .social-link:hover {
   color: #ecb807 !important;
 }
 
-/*****sprite*****/
-.image-adjustment {
-  transform: scale(2);
-}
-
 /*****texthoverchange*****/
 .whatisit {
   display: none;
