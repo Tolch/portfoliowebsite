@@ -124,7 +124,7 @@
 
   <section class="content-padding-0 d-flex">
         <div class="container-edit text-center">
-          <div style="--aspect-ratio: 3 / 4;" class="row centerimg videowrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/2_MxXstKGxw" allowfullscreen></iframe></div>
+          <div id="video-adjustment" style="--aspect-ratio: 3 / 4;" class="row centerimg videowrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/2_MxXstKGxw" allowfullscreen></iframe></div>
           <div class="row">
             <div class="mx-auto thirdly-text-box">
               <h2>Video Presentation</h2>
@@ -222,6 +222,14 @@
           $('#text-shift').removeClass('text-center');
       }else{
           $('#text-shift').addClass('text-center');
+      }
+    });
+
+    $(window).on('resize', function() {
+      if($(window).width() > 768) {
+          $('#video-adjustment').addClass('centerimg');
+      }else{
+          $('#video-adjustment').removeClass('centerimg');
       }
     });
 
