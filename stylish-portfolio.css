@@ -828,37 +828,45 @@ footer.footer .social-link:hover {
 
 /*****About*****/
 .about-1997 {
-  background-color: #799fcb!important;
+  background-color: #F0EAFC!important;
   color: white;
 }
 .about-2016 {
-  background-color: #799fcbb0!important;
+  background-color: #CCE0F2!important;
   color: white;
 }
 .about-2017 {
-  background-color: #799fcb80!important;
+  background-color: #A9D7E7!important;
   color: white;
 }
 .about-2017-lumin {
-  background-color: #dcc1ca!important;
+  background-color: #85CDDD!important;
   color: white;
 }
 .about-2018 {
-  background-color: #f9665e80!important;
+  background-color: #61C3D3!important;
   color: white;
 }
 .about-2016-2018 {
-  background-color: #f9665eb0!important;
+  background-color: #3EBAC8!important;
   color: white;
 }
 .about-2018-2019 {
-  background-color: #f9665e!important;
+  background-color: #1AB0BE!important;
   color: white;
 }
 .text-box {
   background-color: rgba(0,0,0,.3);
   padding-top: 2.5rem;
   padding-bottom: 2.5rem
+}
+.text-box-about {
+  margin: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem
+}
+.text-box-coloring {
+  background-color: rgba(112, 128, 144,.5);
 }
 .content-padding-0 {
   padding-top: 0rem;
