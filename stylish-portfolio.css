@@ -841,6 +841,32 @@ footer.footer .social-link:hover {
   }
 }
 
+/*****Legal*****/
+.drop-accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 1em;
+  margin: 1em;
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-weight: 700;
+}
+
+.active, .drop-accordion:hover {
+  background-color: #ccc; 
+}
+
+.drop-panel {
+  padding: 1em 5em;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  text-align: justify;
+}
+
 /*****About*****/
 .about-1997 {
   background-color: #D9F2F4!important;
